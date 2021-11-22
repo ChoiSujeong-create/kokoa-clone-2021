@@ -1,0 +1,76 @@
+.screen-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--horizontal-space);
+  padding-top: 35px;
+  padding-bottom: 15px;
+  background-color: rgb(246, 242, 234);
+}
+.screen-header__main {
+  display: table;
+}
+.screen-header__main img {
+  border-radius: 50%;
+  padding-right: 15px;
+}
+.screen-header__main .header__title {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 21px;
+  font-weight: 600;
+}
+.header__icons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header__icons span {
+  margin-left: 20px;
+}
+
+.bell__point {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: var(--line);
+  position: absolute;
+  left: 40px;
+  top: -5px;
+}
+
+.friends-screen__people__groups {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px;
+}
+.friends-screen__people__groups__column span {
+  font-weight: bold;
+}
+
+.friends-screen__people__groups__column .fas {
+  width: 20px;
+  height: 20px;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--line);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 1s;
+}

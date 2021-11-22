@@ -1,0 +1,23 @@
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.search-bar input {
+  padding-left: 30px;
+  width: 90%;
+  height: 24px;
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245);
+  border-style: solid 1px gray;
+}
+
+.search-bar .fas {
+  position: absolute;
+  left: 4.5%;
+  top: 15px;
+  color: #bdbdbd;
+}

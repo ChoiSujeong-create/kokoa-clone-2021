@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Line Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:26</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <div class="screen-header__main">
+        <span class="header__title">Chats</span>
+      </div>
+      <div class="header__icons">
+        <span><i class="fas fa-tasks fa-lg"></i></span>
+        <span><i class="fab fa-rocketchat fa-lg"></i></span>
+      </div>
+    </header>
+
+    <div class="search-bar">
+      <input
+        typt="text"
+        placeholder="Search"
+        style="border: 1px solid #bdbdbd"
+      />
+      <i class="fas fa-search"></i>
+    </div>
+
+    <main class="main-screen">
+     <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0231/6137/2752/files/bf_brown.jpg?v=1622860193"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Brown</h4>
+              <h6 class="user-component__subtitle">I think that you should sleep more!</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+              <span class="user-component__time">00:14</span>
+              <span class="badge">1</span>
+          </div>
+        </div>
+      </a>
+        
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+       
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="news.html">
+            <i class="far fa-newspaper fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="wallet.html">
+            <div class="nav__point"></div>
+            <i class="far fa-credit-card fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big..</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
