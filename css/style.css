@@ -5,10 +5,18 @@
 /*Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
-
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/search-bar.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /*Screens*/
 @import "screens/login.css";
-
+@import "screens/friends.css";
+@import "screens/wallet.css";
+@import "screens/news.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 body {
   font-family: "Comforter Brush", cursive;
   font-family: "Open Sans", sans-serif;

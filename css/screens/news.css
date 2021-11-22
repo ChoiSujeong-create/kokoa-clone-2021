@@ -1,0 +1,31 @@
+.news-category__text {
+  height: 35px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.news-category__text .category__top {
+  font-weight: 600;
+}
+
+.top-news {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-news__column {
+  width: 250px;
+  height: 250px;
+}
+.top-news__img {
+  width: 210px;
+  height: 160px;
+  border-radius: 20px;
+}
+.top-news__title {
+  text-align: center;
+}
